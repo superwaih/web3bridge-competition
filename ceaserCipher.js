@@ -46,6 +46,6 @@ var CaesarCipher = function (shift) {
      }
    }
  };
- var c = new CaesarCipher(5); // creates a CipherHelper with a shift of five
- c.encode('WAFFLES'); // returns 'HTIJBFWX'
- c.decode('BFKKQJX');  //returns WAFFLES
+const c = new CaesarCipher(5); // creates a CipherHelper with a shift of five
+ c.encode('ADEWALE'); // returns 'FIJBFQJ'
+ c.decode('FIJBFQJ');  //returns ADEWALE
